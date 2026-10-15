@@ -1,0 +1,42 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Spring Boot ###
+*.jar
+*.war
+*.class
+!gradle-wrapper.jar
+HELP.md
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code (혹시 병행 사용 시) ###
+.vscode/
+
+### Node / JS / CSS (빌드툴 쓸 경우만) ###
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+### 운영체제 ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### 로그 ###
+*.log
+logs/
